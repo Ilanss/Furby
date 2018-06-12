@@ -20,8 +20,6 @@
 
   }*/
 
-
-
     $("#clone").on("dragstart", function() {
         $(this).clone().appendTo('#figures');
 
@@ -114,12 +112,6 @@
           return false;
       };
 
-      var elms = document.getElementsByTagName("*");
-      var n = elms.length;
-      for(var i = 0; i < n; i ++) {
-      if(window.getComputedStyle(elms[i]).cursor == "pointer") {
-        elms[i].style.cursor = "url(newcursor.ico)";
-        }
-      }
 
-  });
+
+    });

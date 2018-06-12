@@ -8,19 +8,25 @@ body {
 	margin: 0 auto;
 	padding: 0;
 
-	background: linear-gradient(140deg, #ff00ff, #00c2d7, #0000ff);
+	/*background: linear-gradient(140deg, #ff00ff, #00c2d7, #0000ff);
 	background-size: 600% 600%;
 
 	-webkit-animation: AnimationName 4s ease infinite;
 	-moz-animation: AnimationName 4s ease infinite;
 	-o-animation: AnimationName 4s ease infinite;
 	animation: AnimationName 4s ease infinite;
-	overflow: hidden;
+	*/overflow: hidden;
 
 	cursor: URL(img/pinkheart.gif);
 }
 
+#back {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
 
+/*
 @-webkit-keyframes AnimationName {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
@@ -40,7 +46,7 @@ body {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
-}
+}*/
 
 h1 {
 	margin: 0;
